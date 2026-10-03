@@ -1,0 +1,29 @@
+﻿# Palm Vein Biometric Authentication — Python Requirements
+# Generated from: PalmVein_V2.ipynb, PLUSVEIN_Eval.ipynb, Ensemble_EER.ipynb, plusvein_eval.py
+#
+# NOTE: PyTorch with CUDA support must be installed separately (see README).
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+# ── Deep Learning Framework ───────────────────────────────────────────────────
+timm>=1.0.3
+
+# ── Image Processing & Computer Vision ───────────────────────────────────────
+opencv-python>=4.9.0
+Pillow>=10.0.0
+albumentations>=1.4.0
+
+# ── Data Science & ML ─────────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+
+# ── Explainability (Grad-CAM) ─────────────────────────────────────────────────
+grad-cam>=1.5.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0

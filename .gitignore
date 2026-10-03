@@ -1,0 +1,55 @@
+﻿# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Large Dataset Directories ─────────────────────────────────────────────────
+# Do NOT commit datasets — provide download instructions in README instead
+Dataset FYO/
+Dataset FYO Preprocessed/
+External/
+dataset_clahe/
+
+# ── Saved Model Weights ───────────────────────────────────────────────────────
+# Weights are large binary files — host on HuggingFace/Google Drive instead
+Model/Saved Models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# ── Output Directories ────────────────────────────────────────────────────────
+Model/Outputs/
+Model/outputs_ensemble_eer/
+Outputs/
+
+# ── IDE & Editor ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+desktop.ini
+ehthumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Archives ──────────────────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar

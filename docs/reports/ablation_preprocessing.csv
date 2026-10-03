@@ -1,0 +1,12 @@
+Model,Preprocessed,Original,Drop (%)
+EfficientNetV2_S,100.0,0.75,99.25
+ResNet50,100.0,0.5,99.5
+ResNet101,100.0,0.75,99.25
+DenseNet121,100.0,0.67,99.33
+MobileNetV3_Large,100.0,0.67,99.33
+VGG16,100.0,62.67,37.33
+VGG19,100.0,76.08,23.92
+InceptionV3,0.83,0.67,0.17
+RegNetY_8GF,100.0,0.58,99.42
+ConvNeXt_Tiny,100.0,90.58,9.42
+PVCNN,100.0,0.67,99.33
