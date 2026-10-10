@@ -1,7 +1,7 @@
-﻿<div align="center">
+<div align="center">
 
-# Palm Vein Biometric Authentication
-### Multi-Model Score-Level Fusion · PyTorch · FYODB · 100% Closed-Set Accuracy
+# 🖐️ PalmFusion
+### 11-Architecture Score-Level Fusion Ensemble for Contactless Palm-Vein Biometric Verification
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
