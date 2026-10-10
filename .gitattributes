@@ -1,0 +1,2 @@
+# Ignore Jupyter Notebooks from language breakdown calculations
+*.ipynb linguist-detectable=false
